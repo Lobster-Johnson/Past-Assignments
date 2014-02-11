@@ -1,0 +1,34 @@
+body{ background-color: #996633;} 
+p { color: black; } 
+h3{ color: black; }
+h1{ color: black; }
+h1.italic {font-style:italic;}
+h2.{ color: black; }
+h2.italic {font-style:italic;}
+
+#header
+{
+
+border-color: #996633;
+}
+
+h4
+{
+	text-align: center;
+}
+
+h3
+{
+	text-align: center;
+}
+
+table
+{
+	text-align: center;
+	width: 700px;
+}
+
+dl
+{
+	text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Toscanna reservation</title>
+	<script>
+	function Sent()
+	{
+	alert("Reservation sent. Please await a phonecall to verify. ")
+	}
+	</script>
+</head>
+
+
+<body>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<div id="container" style="width:1300px">
+
+
+
+<div id="header" style="background-color:tan;text-align:center">
+<h1 class="italic">La Toscanna Pizzeria</h1>
+<a href = "menu.html">Menu</a>
+-<a href = "reservation.html">Reserve online</a>
+-<a href = "home.html">Home</a>
+-<a href = "contactdetails.html">Contact/About</a>
+-<a href = "directions.html">Directions</a><br></div>
+
+
+
+<div id="content" style="background-color:#F5DEB3;height:500px;width:1300px;text-align center">
+<h3>If you wish to make a reservation, please fill out the following form</h3>
+	<form name="account" method="post">
+	<table border="1" align="center">
+		<tr>
+			<td>Name:</td>
+			<td><input name="Name" value=" " size="20" /></td>
+		</tr>
+		<tr>
+			<td>Phone number:</td>
+			<td><input name="number" value="" size="20" /></td>
+		</tr>
+		<tr>
+			<td>How many people would you like to reserve for?</td>
+			<td><input name="People" value=" " size = "2"></td>
+		</tr>
+		<tr>
+			<td>What date do you want to reserve?</td>
+			<td>dd/mm<br><input name="day" value=" " size = "2">/<input name="month" value=" " size = "2"></td>
+		</tr>
+		<tr>
+			<td>What time do you want to reserve for?</td>
+			<td><input name="hour" value="00" size = "2">:<input name="minutes" value="00" size = "2"></td>
+		</tr>
+		<tr>
+			<td><input type = "submit" onclick = "Sent()" value = "Submit"/></td>
+			<td><input type = "reset" value = "Clear"/></td>
+		</tr>
+
+
+
+	</table><br>
+	<center><img src="file:///C:/Users/Marcus/Documents/Lecture%20notes/web%20dev/Labs/Assignment/pizzeria.jpg" width="500" height="200" ></center>
+	</form>
+
+
+</div>
+
+
+
+<div id="footer" style="background-color:tan;clear:both;text-align:center;">
+<a href = "menu.html">Menu</a>
+-<a href = "reservation.html">Reserve online</a>
+-<a href = "home.html">Home</a>
+-<a href = "contactdetails.html">Contact/About</a>
+-<a href = "directions.html">Directions</a><br>
+Copyright @ la Toscanna.com<br>Desinged by Blue Dragon Media Design</div>
+
+</div>
+ 
+</body>
+</html>
